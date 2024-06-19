@@ -1,5 +1,5 @@
 
-# JavaJourney-API
+# Jatim Journey-API
 
 The following is the API that we use for the project capstone track product
 ## API Documentation
