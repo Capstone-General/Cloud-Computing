@@ -82,15 +82,19 @@ app.get('/', (req, res) => {
   res.send('JAVA JOURNEY API');
 });
 
-const placesRouter = require('./routes/places');
-const ratingRouter = require('./routes/rating');
-const choiceRouter = require('./routes/choice');
-const predictRouter = require('./routes/predict'); // Import route for prediction
+const placesRouter = require("./routes/places");
+const ratingRouter = require("./routes/rating");
+const choiceRouter = require("./routes/choice");
+const predictRouter = require("./routes/predict"); // Import route for prediction
+const categoryRouter = require("./routes/category_bycategory");
+const categoryallRouter = require("./routes/category_all");
 
-app.use('/places', placesRouter);
-app.use('/user', ratingRouter);
-app.use('/choice', choiceRouter);
-app.use('/predict', predictRouter); // Use predict route
+app.use("/places", placesRouter);
+app.use("/user", ratingRouter);
+app.use("/choice", choiceRouter);
+app.use("/predict", predictRouter); // Use predict route
+app.use("/category", categoryRouter);
+app.use("/categoryall", categoryallRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
