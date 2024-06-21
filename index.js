@@ -23,7 +23,7 @@ const imagesBucketName = 'images_database';
 const dataBucket = storage.bucket(dataBucketName);
 const imagesBucket = storage.bucket(imagesBucketName);
 
-const fileUrl = 'https://storage.googleapis.com/api-buckett/Dataset(1).csv';
+const fileUrl = 'https://storage.googleapis.com/api-buckett/Dataset.csv';
 const localFilePath = '/tmp/Dataset.csv';
 
 function downloadFile(url, dest, cb) {
