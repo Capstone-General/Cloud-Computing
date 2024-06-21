@@ -10,7 +10,7 @@ https://capstone-project-c241-ps312.et.r.appspot.com
 ```
 API for get all place
 ```bash
-https://capstone-project-c241-ps312.et.r.appspot.com/place
+https://capstone-project-c241-ps312.et.r.appspot.com/places
 ```
 API to get place names based on ratings given by users
 ```bash
